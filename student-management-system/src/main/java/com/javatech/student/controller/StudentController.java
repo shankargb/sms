@@ -24,7 +24,7 @@ public class StudentController {
 		this.studentService = studentService;
 		logger.info("student service object created");
 	}
-
+// get end point
 	@GetMapping("/students")
 	public String listStudents(Model model) {
 		logger.info("Inside listStudents() - Controller class");
